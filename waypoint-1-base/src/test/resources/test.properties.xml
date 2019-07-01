@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+    <entry key='ionic-profile'>ionic/ionic.sep.plaintext.json</entry>
+    <entry key='ionic-columns'>first|last|zip</entry>
+
+    <entry key='driverClassName'>org.postgresql.Driver</entry>
+    <entry key='jdbc.url'>jdbc:postgresql://localhost:5432/</entry>
+    <entry key='jdbc.user'>postgres</entry>
+    <entry key='jdbc.password'>password-postgres</entry>
+
+    <entry key='jdbc.sql.insert'>INSERT INTO personnel (first, last, zip, department) VALUES (?, ?, ?, ?)</entry>
+    <entry key='jdbc.sql.select'>SELECT * FROM personnel</entry>
+</properties>
